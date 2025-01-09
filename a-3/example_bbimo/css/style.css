@@ -1,0 +1,135 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  display: block;
+  text-decoration: none;
+  color: #333;
+}
+/* 전체영역 */
+.wrap {
+  width: 1200px;
+  height: 700px;
+  background-color: grey;
+}
+
+/* A 상단 */
+.header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  background-color: red;
+}
+/* 로고 */
+.logo {
+  width: 200px;
+  height: 100%;
+  background-color: green;
+}
+.logo img {
+  width: 100%;
+}
+/* nav 영역 */
+.nav {
+  position: relative;
+  width: 1000px;
+  height: 100%;
+  background-color: skyblue;
+}
+/* gnb 영역 */
+.gnb {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  width: 600px;
+  height: 50px;
+  display: flex;
+  background-color: blue;
+}
+.gnb > li > a {
+  width: calc(600px / 4);
+  line-height: 50px;
+  text-align: center;
+  font-weight: bold;
+  background-color: palevioletred;
+}
+
+.gnb > li > a:hover {
+  background-color: black;
+  color: aliceblue;
+}
+.gnb > li:hover .depth2 {
+  display: block;
+}
+/* depth 영역 */
+.depth2 {
+  display: none;
+}
+.depth2 > li > a {
+  padding: 10px;
+  text-align: center;
+  background-color: pink;
+}
+.depth2 > li > a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/* B 이미지 슬라이드 */
+.slide {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background-color: orange;
+}
+/*ul 영역*/
+.slide-all {
+  width: 100%;
+  height: 300px;
+  background-color: pink;
+}
+.slide-all > li {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.slide-all > li > a {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.slide-all > li > a > img {
+  width: 100%;
+}
+.slide-all > li > a > span {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(-50% -50%);
+  font-size: 30px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* C 서브메뉴 */
+.submenu {
+  width: 100%;
+  height: 200px;
+  background-color: yellow;
+}
+/* D 하단 */
+.footer {
+  width: 100%;
+  height: 100px;
+  background-color: greenyellow;
+}
