@@ -1,0 +1,19 @@
+250109 웹디자인 기능사 연습 (a-3 강원천문대)
+
+**제이쿼리 연결은 
+head부분에 script src 로 연결한다 !
+
+ex    <!-- js -->
+     <!-- jquery -->
+      <script src="js/jquery-1.12.3.js"></script>
+      <!-- js파일연결 -->
+    <link rel="stylesheet" href="js/jquery-1.12.3.js">
+
++++ 코드 작성할 js 파일 새로 생성해준다 !
+
+      <!-- js파일연결 -->
+    <script src="js/script.js"></script>
+
+-> ctrl + 왼쪽마우스 클릭하면 폴더 생성됨 
+
+-------------------------------------------------------------
