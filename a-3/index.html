@@ -11,10 +11,20 @@
     <script src="js/jquery-1.12.3.js"></script>
     <!-- js파일연결 -->
     <script src="js/script.js"></script>
+
   </head>
 
   <body>
     <!-- 모달창 -->
+    <div id="modal">
+      <div class="modal-inner">
+        <h2 class="modal-title">
+          Modal-title
+        </h2>
+        <p class="modal-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis porro nihil voluptatibus pariatur saepe quam, labore quia dolor perspiciatis ab dignissimos blanditiis eos aut, vero et repellat facilis qui impedit?</p>
+        <p class="close"> X (close)</p>
+      </div>
+    </div>
     <!-- 전체 영역 -->
     <div class="wrap">
       <!-- A 상단 -->
@@ -89,9 +99,91 @@
       </div>
 
       <!-- C 컨텐츠 -->
-      <div class="contents"></div>
-      <!-- D 하단 -->
-      <footer class="footer"></footer>
+      <div class="contents">
+        <!-- 공지사항/갤러리 -->
+        <div class="c c1">
+          <!-- 공지사항 -->
+          <h4 class="on">공지사항</h4>
+          <ul class="notice on">
+            <li class="popup">
+              <a href="#">
+                <span class="notice-txt">강원천문대 2019년 야영장 운영개시 안내</span>
+                <span>2019-06-03</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="notice-txt">강원천문대 2019년 야영장 운영개시 안내</span>
+                <span>2019-06-03</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="notice-txt">강원천문대 2019년 </span>
+                <span>2019-06-03</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="notice-txt">강원천문대 2019년 야영장 운영개시 안내</span>
+                <span>2019-06-03</span>
+              </a>
+            </li>
+          </ul>
+          <!-- 갤러리 -->
+          <h4>갤러리</h4>
+          <ul class="gal">
+            <li>
+              <a href="#">
+                <img src="images/icon1.jpg" alt="갤러리1" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="images/icon2.jpg" alt="갤러리2" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="images/icon3.jpg" alt="갤러리3" />
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- 배너 -->
+        <div class="c c2">
+          <a href="#">
+            <img src="images/banner.jpg" alt="배너" />
+            <span>배너</span>
+          </a>
+        </div>
+
+        <!-- 바로가기 -->
+        <div class="c c3">
+          <a href="#">
+            <img src="images/shortcut.jpg" alt="shortcut" />
+            <span>바로가기</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- 하단 -->
+      <footer class="footer">
+        <div class="ft-logo">
+          <a href="#">
+            <img src="images/logo.png" alt="로고" />
+          </a>
+        </div>
+        <div class="ft-copy">
+          <ul class="bottom_menu">
+            <li><a href="#">개인정보취급방침</a></li>
+            <li><a href="#">개인정보처리방침</a></li>
+            <li><a href="#">이메일무단수집거부</a></li>
+          </ul>
+          <p>Copyright by Gangwon Observatory. all right reserved.</p>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
