@@ -52,7 +52,6 @@ a {
   height: 50px;
   display: flex;
   background-color: blue;
-
 }
 .gnb > li > a {
   width: calc(600px / 4);
